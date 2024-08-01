@@ -1,0 +1,40 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "layer": [
+    {
+      "name": "Background",
+      "value": 1
+    },
+    {
+      "name": "Board",
+      "value": 2
+    },
+    {
+      "name": "Hole",
+      "value": 4
+    },
+    {
+      "name": "Nut",
+      "value": 8
+    }
+  ],
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "NUT"
+      },
+      {
+        "index": 2,
+        "name": "BOLT"
+      }
+    ]
+  }
+}
